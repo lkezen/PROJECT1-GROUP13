@@ -1,4 +1,3 @@
-// Example to update elements with selectors
 const logo = document.querySelector('.logo');
 if (logo) {
     console.log("Setting logo text");
