@@ -1,0 +1,424 @@
+/* HOME CODING */
+
+body {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.header {
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #255751;
+    letter-spacing: 5px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 60px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #787878;
+    font-weight: 500;
+
+}
+
+.contact-button {
+    background-color: #DCAA37;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 0px;
+}
+
+.hero-section {
+    height: 655px;
+    display: flex;
+    margin: 0; /* No margin */
+    padding: 0; /* No padding */
+}
+
+.hero-content {
+    display: flex;
+    width: 100%;
+    height: 655px;
+    margin: 0;
+}
+
+.home-hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 655px;
+    overflow: hidden;
+    margin: 0;  /* No margins */
+}
+
+.home-hero img {
+    width: 636px;
+    height: auto;
+    display: block;
+    margin: 0; /* No margins */
+    padding: 0; /* No padding */
+}
+
+.hero-text {
+    background-color: #5C6D64;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    padding: 100px;
+}
+
+.hero-text h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 48px;
+}
+
+
+.highlight {
+    color: #DCAA37;
+}
+
+
+.about-section {
+    display: flex;
+    width: 100%;
+    padding: 0; /* No padding around the section */
+    margin: 0;
+}
+
+.about-left {
+    width: 636px; /* Fixed width to match hero image */
+    background-color: #255751;
+    justify-content: center;
+    padding: 50px 140px; /* Padding for the content inside */
+    display: flex; /* Enable flexbox for the section */
+    flex-direction: column; /* Stack items vertically */
+}
+
+.about-left h2 {
+    font-size: 36pt; /* Updated font size */
+    color: #DCAA37;
+    margin-bottom: 20px; /* Space between title and the line */
+    display: flex; /* Enable flexbox for title */
+    align-items: center; /* Center align vertically */
+}
+
+.title-line {
+    width: 80px;
+    height: 1px; 
+    background-color: #86CCB7; /* Line color */
+    margin-left: 30px; /* Space between title and the line */
+    flex-grow: 1; /* Make the line grow to fill available space */
+}
+
+.about-left p {
+    color: #EBEBEB;
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 2.1;
+}
+
+.about-left blockquote {
+    font-weight: bold;
+    font-size: 18px;
+    color: #EBEBEB;
+    margin: 30px 0;
+    line-height: 2.1;
+}
+
+.ceo-line {
+    width: 61px;
+    height: 1px;
+    background-color: #86CCB7;
+    margin: 10px 0; /* Adjust margin for spacing */
+    align-self: flex-start; /* Align the line to the start of the flex container */
+}
+
+.about-left .ceo {
+    text-transform: uppercase;
+    font-size: 10pt;
+    color: #EBEBEB;
+    margin-top: 10px; /* Space after the line */
+}
+
+.about-right {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 2x2 grid */
+    grid-gap: 40px;
+    justify-content: center; /* Center grid items */
+    margin: 100px 115px; /* Margins for grid positioning */
+}
+
+.about-feature {
+    display: flex;
+    width: 260px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.about-feature h4 {
+    font-size: 18pt;
+    color: #181818;
+    margin-bottom: 10px;
+}
+
+.about-feature p {
+    font-size: 12pt;
+    color: #313131;
+    line-height: 2.1;
+    
+}
+
+.facts-section {
+    background-color: #F9F6EF;
+    height: 230px;
+    display: flex;
+    justify-content: space-around; /* Space the blocks evenly */
+    align-items: center; /* Center the content vertically */
+    padding: 20px 0; /* Padding for spacing */
+}
+
+.facts {
+    display: flex;
+    justify-content: space-around; /* Space the blocks evenly */
+    width: 100%; /* Full width */
+}
+
+.fact {
+    text-align: left; /* Center align text */
+}
+
+.fact h3 {
+    font-size: 50pt; /* Big and bold numbers */
+    color: #255751;
+    margin: 0; /* Remove default margin */
+    font-weight: bold; /* Bold font */
+}
+
+.fact p {
+    color: #181818; /* Text color */
+    font-size: 12pt; /* Font size for the detail */
+    font-weight: 300; /* Light font weight */
+}
+
+
+h3 {
+    font-size: 36pt;
+    color: #ffffff;
+    margin: 20px 0; 
+}
+
+.video-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    background-color: #325651;
+}
+
+
+
+
+
+/* INTERNAL PAGES CODING */
+
+.team-hero,
+.other-page-hero {
+    width: 100%; /* Full width for other pages */
+    height: 655px; /* Set the height */
+    overflow: hidden;
+}
+
+.team-hero img,
+.other-page-hero img {
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    object-fit: cover; /* Ensure the image covers the entire section */
+}
+
+
+.team-section {
+    padding-left: 10%; /* Apply left padding */
+}
+
+.team-section h2 {
+    color: #181818; /* Set title color */
+    font-size: 36pt; /* Increase the size of the title */
+    margin-bottom: 20px; /* Space below the title */
+    margin-top: 40px;
+  
+}
+
+.team-content p {
+    color: #313131;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    line-height: 2.1;
+    max-width: 970px;
+}
+
+
+
+
+
+/* OUR TEAM CODING */
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    max-width: 370px;
+    gap: 40px; /* Space between grid items */
+    margin-top: 40px; /* Space above the grid */
+}
+
+.team-member {
+    text-align: left; /* Center align the text */
+}
+
+.team-member h3 {
+    color: #255751; /* Set title color for team members */
+    font-size: 30pt; /* Title size */
+    margin: 10px 0; /* Margin for spacing */
+}
+
+
+
+/* PORTFOLIO CODING */
+
+.portfolio-image {
+  margin-bottom: 50px;
+}
+
+
+
+
+/* CONTACT US CODING */
+h2.contact {
+    color: #181818;
+    font-size: 36pt;
+    margin: 0;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+    gap: 10px;
+    max-width: 600px;
+    justify-items: start;
+    margin-bottom: 50px;
+}
+
+.contact h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.contact-details p {
+    display: flex;
+    align-items: flex-start;
+    font-size: 20px;
+    color: #333;
+    margin: 25px 0;
+    line-height: 1;
+}
+
+.contact-details img {
+    margin-right: 20px;
+    width: 7%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .contact-grid {
+        grid-template-columns: 1fr; /* Stack the info on smaller screens */
+    }
+}
+
+
+
+
+/* UNDER CONSTRUCTION PAGE CODING */
+
+.under-construction {
+    background-color: #255751;
+    color: white;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content {
+    max-width: 1000px; /* Optional max-width for better readability */
+}
+
+.uc-heading {
+    font-size: 90px;
+    margin-bottom: 20px; 
+}
+
+.uc-message {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    line-height: 1.5;
+
+}
+
+
+
+
+/* GENERIC CODING */
+
+.line {
+    width: 70%;
+    height: 1px;
+    background-color: #EBEBEB;
+    margin: 0 auto 20px;
+}
+
+.footer {
+    background-color: #FDF6D7;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #5C5C5C;
+    font-size: 10pt;
+}
+
+
