@@ -39,6 +39,8 @@ document.querySelectorAll('.contact-button, .submit-button').forEach(function(bu
     });
 });
 
+
+
 // Form submission with success message
 document.querySelector('form').addEventListener('submit', function(event) {
     event.preventDefault(); // Prevent form from submitting the traditional way
