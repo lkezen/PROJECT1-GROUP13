@@ -322,6 +322,53 @@ h3 {
 
 
 /* CONTACT US CODING */
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 5px;
+    justify-items: start;
+    margin-bottom: 0; /* Reduce margin below grid */
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px; /* Reduce margin between sections */
+}
+
+.contact label {
+    margin-bottom: 5px; /* Reduce margin for a tighter layout */
+}
+
+.contact-button {
+    background-color: #DCAA37;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 0px;
+    border: none; /* Ensure no border for button */
+    cursor: pointer; /* Pointer cursor for button */
+}
+
+.submit-button {
+    background-color: #DCAA37;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 0px;
+    border: none; /* Ensure no border for button */
+    cursor: pointer; /* Pointer cursor for button */
+    margin-bottom: 20px; /* Adjust spacing */
+    margin-top: 10px;
+}
+
+textarea {
+    max-width: 600px;
+    margin-bottom: 10px;
+}
+
+
 h2.contact {
     color: #181818;
     font-size: 36pt;
