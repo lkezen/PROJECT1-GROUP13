@@ -18,7 +18,8 @@ if (heroText) {
     heroText.style.color = "#DCAA37";
 }
 
-lala
+
+form SubmitEvent
 
 // Change navbar links color on hover
 document.querySelectorAll('.nav-links li a').forEach(function(link) {
