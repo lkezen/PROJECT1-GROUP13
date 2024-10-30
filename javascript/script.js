@@ -29,7 +29,7 @@ document.querySelectorAll('.nav-links li a').forEach(function(link) {
     });
 });
 
-// Change contact button background color on hover
+// Change contact button background color on hover - fixed
 document.querySelectorAll('.contact-button, .submit-button').forEach(function(button) {
     button.addEventListener('mouseover', function() {
         this.style.backgroundColor = '#255751';
