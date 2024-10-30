@@ -38,8 +38,7 @@ document.querySelectorAll('.contact-button, .submit-button').forEach(function(bu
         this.style.backgroundColor = '#DCAA37';
     });
 });
-
-
+ 
 
 // Form submission with success message
 document.querySelector('form').addEventListener('submit', function(event) {
