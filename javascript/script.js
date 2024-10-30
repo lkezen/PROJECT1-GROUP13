@@ -40,7 +40,6 @@ document.querySelectorAll('.contact-button, .submit-button').forEach(function(bu
 });
 
 
-lalalala
 
 // Form submission with success message
 document.querySelector('form').addEventListener('submit', function(event) {
