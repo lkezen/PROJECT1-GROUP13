@@ -38,9 +38,9 @@ document.querySelectorAll('.contact-button, .submit-button').forEach(function(bu
         this.style.backgroundColor = '#DCAA37';
     });
 });
- 
 
-// Form submission with success message
+
+// Form submission popup success message!
 document.querySelector('form').addEventListener('submit', function(event) {
     event.preventDefault(); // Prevent form from submitting the traditional way
     const email = document.querySelector('input[type="email"]').value;
