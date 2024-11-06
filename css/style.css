@@ -43,7 +43,7 @@ body {
     text-decoration: none;
     color: #787878;
     font-weight: 500;
-    
+
 
 }
 
@@ -68,6 +68,7 @@ body {
     height: 655px;
     margin: 0;
 }
+
 
 .home-hero {
     display: flex;
